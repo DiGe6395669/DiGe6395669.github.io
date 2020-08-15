@@ -1,0 +1,48 @@
+﻿html {
+  /* px 表示 “像素（pixels）”: 基础字号为 10 像素 */
+  font-size: 10px; 
+
+  /* Google fonts 输出的 CSS ，来源网上*/
+  font-family: 'Open Sans', sans-serif; 
+
+  background-color: #00539F
+}
+
+body{
+   width:777px;
+
+   margin: 0 auto;	
+/*外边距:第一个值代表上下，第二个代表左右：这里特殊指左右对称*/
+
+   background-color:#FAF9F9;
+
+   padding:0  10px 10px 10px;        /*内边距：上右下左*/  
+
+   border: 10px solid black;	    /*边框*/
+}
+
+h1, ul{
+  font-size: 47px;
+
+  text-align: center;              /*指定文本居中*/
+
+  margin: 0;
+
+  padding: 20px 0 ;
+
+  color:#00539F;
+
+  text-shadow: 3px 3px 1px black;	/*设置阴影*/
+}
+p{
+    font-size:16px;
+    line-height: 2;                 /* 行距：当前字体的大小乘以设定的数字*/
+    letter-spacing: 2px;        /*字与字之间的距离*/
+}
+img {
+
+  display: block;
+/*图片是内联元素，需要给予块级元素的行为（因为块级元素才具备内容）*/
+
+  margin: 0 auto;/*由上面的语句，这里才有效居中*/
+}
